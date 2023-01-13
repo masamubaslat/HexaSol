@@ -1,0 +1,96 @@
+.reviewsbdy{
+    background-image: url('C:/study/Internship/it/public/about-image-2.jpg');
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    padding-top: 5rem;
+    margin-top: 5rem;
+}
+.carouselbdy{
+    height: 28.098rem;
+    width: 48.75rem;
+    background-color: rgba(255, 255, 255, 0.94);
+    margin-left: 7rem;
+    border-bottom: 2px solid #4A3D8F;
+}
+
+.cloud{
+    color: #F74883;
+    font-size: 2.5rem;
+}
+.reviewsfirstpara{
+    color: #4A3D8F !important;
+    font-size: 1rem;
+    line-height: 1.5em;
+    margin-bottom: 15px;
+    font-family: 'Arimo', sans-serif;
+    margin-bottom: 1.5rem;
+
+}
+.reviewssecondpara{
+    font-family: 'Arimo', sans-serif;
+    font-weight: 400;
+    font-size: 1.063rem;
+    line-height: 27.2px;
+    width: 36rem;
+    text-align: center;
+    margin: auto;
+    margin-bottom: 1.5rem;
+}
+.reviewsauthorname{
+    font-family: 'Arimo', sans-serif;
+    font-weight: 700;
+    font-size: 1.125rem;
+    line-height: 27.2px;
+}
+.reviewsauthorjob{
+    color: rgb(102, 102, 102) !important;
+    font-size: 0.813rem;
+    font-family: 'Arimo', sans-serif;
+    font-weight: 400;
+    line-height: 19.5px;
+}
+
+@media (max-width: 768px){
+    .reviewsbdy{
+        height: 80vh;
+    }
+    .carouselbdy{
+        height: 28.098rem;
+        width: 22.75rem;
+        margin: auto !important;
+        border-bottom: 2px solid #4A3D8F;
+    }
+    .reviewssecondpara{
+        width: 20rem;
+        text-align: center;
+        margin: auto;
+        margin-bottom: 1.5rem;
+    }
+   
+}
+@media (min-width:800px) and (max-width: 1200px){
+    .reviewsbdy{
+        height: 60vh;
+    }
+    .carouselbdy{
+        height: 28.098rem;
+        width: 42.75rem;
+        margin: auto !important;
+        border-bottom: 2px solid #4A3D8F;
+    }
+    .reviewssecondpara{
+        font-family: 'Arimo', sans-serif;
+        font-weight: 400;
+        font-size: 1.063rem;
+        line-height: 27.2px;
+        width: 20rem;
+        text-align: center;
+        margin: auto;
+        margin-bottom: 1.5rem;
+    }
+    .carousel-indicators{
+        margin-left: 52% !important;
+    }
+}

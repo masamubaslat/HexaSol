@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Arimo&family=Josefin+Sans:ital,wght@0,300;1,200&family=Lato:wght@300&family=Mrs+Saint+Delafield&family=Noto+Serif:ital@1&family=Open+Sans:wght@300&family=PT+Serif&family=Playball&display=swap');
+.headerbdy{
+    margin-top: 6rem !important;
+    height: 100vh !important;
+    overflow: hidden !important;
+}
+.crslbdy{
+    background-color: #EDF5F8;
+}
+.crsl_parag{
+    width: fit-content;
+    color: #F74883;
+    border-bottom: 1px solid #4A3D8F ;
+    font-family: 'Arimo', sans-serif;
+    font-weight: 700;
+}
+.crsl_header{
+    width: 40.625rem;
+    font-size: 3.75rem;
+    font-weight: 400;
+    font-family: 'Arimo', sans-serif;
+}
+.crsl_paragr{
+    font-size: 1.375rem;
+    font-family: 'Arimo', sans-serif;
+    line-height: 2.063rem;
+    margin-bottom: 2.813rem;
+}
+.butn{
+    background-color: #4A3D8F;
+    color: white;
+    font-size: 1rem;
+    font-family: 'Arimo', sans-serif;
+    line-height: 30px;
+    border-radius: 0px;
+}
+.butn:hover{
+    background-color: #000;
+    color: white;
+}
+.btn_desc{
+    background-color: #F74883;
+    color: white;
+    font-size: 1rem;
+    font-family: 'Arimo', sans-serif;
+    line-height: 30px;
+    border-radius: 0px;
+}
+.btn_desc:hover{
+    background-color: #000;
+    color: white;
+}
+.curvyimg{
+    top: 88.9%;
+    left: 0;
+    z-index: 999;
+}
+@media (max-width:400px){
+    .crsl_header{
+        width: 20rem !important;
+        font-size:2rem !important;
+    }
+    .headerbdy{
+        height: 85vh !important;
+    }
+    .curvyimg{
+        display: none;
+    }
+    .crslbdy img{
+        display: none;
+    }
+ }
+@media (min-width:400px) and (max-width: 796px){
+    .crsl_header{
+        width: 20rem !important;
+        font-size:2rem !important;
+    }
+    .headerbdy{
+        height: 60vh !important;
+    }
+    .curvyimg{
+        display: none;
+    }
+    .crslbdy img{
+        display: none;
+    }
+ }
+@media (min-width: 800px) and (max-width: 1200px){
+    .headerbdy{
+        height: 40vh !important;
+    }
+    .curvyimg{
+        display: none;
+    }
+    .crslbdy img{
+        display: none;
+    }
+}
+ 

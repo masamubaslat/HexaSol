@@ -1,0 +1,66 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.carousel-indicators {
+  width: 117%;
+  text-align: center;
+  padding-bottom: 1rem;
+}
+.carousel-indicators .active{
+  color: #F74883;
+}
+.ant-anchor{
+  display: flex;
+}
+.ant-anchor-ink::before{
+  height: 0px !important;
+}
+.ant-anchor-link-title{
+  text-decoration: none !important;
+  text-align: center !important;
+  padding-bottom: 2.2rem !important;
+  font-family: 'Open Sans', sans-serif;
+   color: rgb(0, 0, 0) !important ;
+   font-size: 1rem;
+   font-weight: 700;
+   line-height: 30.4px;
+   letter-spacing: 0.48px;
+   margin-left:1rem !important;
+   cursor: pointer;
+   width: fit-content !important;
+}
+:where(.css-dev-only-do-not-override-6foo54).ant-anchor-wrapper .ant-anchor .ant-anchor-ink-ball.ant-anchor-ink-ball-visible{
+  background-color:rgb(248, 249, 250y) !important;
+}
+.ant-anchor-ink{
+  display: none !important;
+}
+.ant-anchor-link-title:hover{
+  color: #4a3d8f !important;
+  border-bottom: 2px solid #4a3d8f;
+}
+.fa-magnifying-glass{
+  font-size: 1.3rem;
+  margin-top: 0.5rem;
+}
+
+@media (min-width:800px) and (max-width: 1200px){
+  .carousel-indicators{
+      margin-left: 52% !important;
+  }
+}
+@media (max-width: 796px){
+  .carousel-indicators{
+    margin-left: 56% !important;
+}
+}

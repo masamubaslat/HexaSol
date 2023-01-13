@@ -1,0 +1,128 @@
+.servicesbdy{
+    background: -webkit-linear-gradient(bottom,#edf5f8,#ffffff);
+}
+.firstpara{
+    color: #F74883;
+    border-bottom: 1px solid #4A3D8F ;
+    font-family: 'Arimo', sans-serif;
+    font-weight: 700;
+    font-size: 1rem;
+    line-height: 19.2px;
+    margin: auto;
+    width: fit-content;
+}
+.servicesheader{
+    color: rgb(34, 34, 34);
+    font-size: 2.75rem;
+    font-family: 'Arimo', sans-serif;
+    font-weight: 400;
+    line-height: 52.8px;
+    /*width: 18.535rem;*/
+    text-align: center;
+}
+.secondpara{
+    color: rgb(102, 102, 102);
+    font-size: 0.938rem;
+    font-family: 'Arimo', sans-serif;
+    font-weight: 400;
+    line-height: 25.5px;
+    text-align: center;
+}
+.servicescontent{
+    margin-top: 3rem;
+}
+.servicesCard{
+    width: 23.083rem;
+    height: 32rem;
+    text-align: center;
+    background-color: white;
+    box-shadow: 0px 0px 25px 0px rgba(0,0,0,0.07);
+}
+.servicesCard:hover{
+    border-bottom: 2px solid #F74883;
+}
+.servicesCard:hover .servicesicon{
+    color: white;
+}
+.servicesCard:hover .servicesiconcontent{
+    background-color: #4A3D8F;
+}
+.servicescardimages{
+    position: absolute;
+    left: 36%;
+    top: 18%;
+}
+.servicescardheader{
+    color: #222;
+    font-size: 1.375rem;
+    line-height: 27.5px;
+    font-weight: 400;
+    font-family: 'Arimo', sans-serif;
+    text-align: center;
+    text-decoration: none;
+}
+.servicescardpara{
+    color: #222;
+    font-size: 0.938rem;
+    line-height: 25.5px;
+    font-weight: 400;
+    font-family: 'Arimo', sans-serif;
+    width: 17.708rem !important;
+}
+.servicesiconcontent{
+    position: absolute;
+    top: 93%;
+    left: 41%;
+    width: 60px;
+    height: 60px;
+    background-color: white;
+    border-radius: 50%;
+    box-shadow: 0px 0px 25px 0px rgba(0,0,0,0.07);
+}
+.servicesicon{
+    color: #4A3D8F;
+    padding-top: 40%;
+    
+}
+.s2_1servicesCard{
+    width: 23.083rem;
+    height:32rem;
+    text-align: center;
+    box-shadow: 0px 0px 25px 0px rgba(0,0,0,0.07);
+    margin-top: -7rem !important;
+    background-color: white;
+}
+.serviceslasapara{
+    font-size: 1.125rem;
+    font-weight: 400;
+    line-height: 1.688rem;
+    color: rgb(34,34,34);
+    font-family: 'Arimo', sans-serif;
+}
+.serviceslastlink{
+    color: #F74883;
+    border-bottom: 1px solid #4A3D8F;
+    text-decoration: none;
+}
+.serviceslastlink:hover{
+    color: #F74883;
+    border-bottom: 1px solid #4A3D8F;
+    text-decoration: none;
+}
+@media (max-width: 900px){
+    .servicesheader{
+        width: fit-content;
+        font-weight: 600;
+        font-size: 1.3rem;
+        margin: auto;
+    }
+    .servicesheader{
+        text-align: left;
+    }
+    .servicesCard{
+        height: 34rem;
+        margin: 2rem;
+        padding: 1rem;
+    }
+   
+ }

@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,300;1,200&family=Lato:wght@300&family=Mrs+Saint+Delafield&family=Noto+Serif:ital@1&family=Open+Sans:wght@300&family=PT+Serif&family=Playball&display=swap');
+.navbarbrandimg{
+   padding-top: 0rem !important;
+}
+.mainnav{
+   position: fixed;
+   top: 1;
+   left: 0;
+   width: 100vw;
+   z-index: 99999;
+   padding-bottom: 0px !important;
+   height: 100px !important;
+   padding-top: 2rem;
+}
+.uppernavbdy{
+   background:-webkit-linear-gradient(bottom,#f9f9f9,#ffffff);
+   border-bottom: 1PX solid #E2EEF2;
+}
+.uppernavlink{
+   color: #222;
+   font-size: 0.938rem;
+   text-decoration: none;
+}
+.uppernavlink:hover{
+   color: #4A3D8F;
+   text-decoration: underline;
+}
+.uppernavlinkicon{
+   color: #4a3d8f;
+}
+@media (max-width: 900px){
+   .uppernavbdy{
+      display: none;
+   }
+   .mainnav{
+      top: 0px;
+   }
+}
+

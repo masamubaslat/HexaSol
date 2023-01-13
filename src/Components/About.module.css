@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Arimo&family=Josefin+Sans:ital,wght@0,300;1,200&family=Lato:wght@300&family=Mrs+Saint+Delafield&family=Noto+Serif:ital@1&family=Open+Sans:wght@300&family=PT+Serif&family=Playball&display=swap');
+.aboutpara{
+    width: fit-content;
+    color: #F74883;
+    border-bottom: 1px solid #4A3D8F ;
+    font-family: 'Arimo', sans-serif;
+    font-weight: 700;
+}
+.aboutheader{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    width: 32.813rem;
+    font-size: 2.75rem;
+    font-weight: 400;
+    font-family: 'Arimo', sans-serif;
+}
+.scndaboutparag{
+    color: #666;
+    font-size: 0.938rem;
+    font-weight: 400;
+    margin-bottom: 1.875rem;
+    line-height: 1.594rem;
+    font-family: 'Arimo', sans-serif;
+}
+.aboutlistitems{
+    color: #666;
+    font-size: 0.938rem;
+    font-weight: 400;
+    font-family: 'Arimo', sans-serif;
+    line-height: 1.5rem;
+    position: relative;
+    margin-left: 1rem;
+}
+.aboutlistitems::before{
+    content:"\2714";
+    position: absolute;
+    top: 0;
+    left: -13px;
+    color: #F74883;
+}
+.crcleaboutpos{
+    left: 40%;
+    top: 34% ;
+}
+.crcleabout{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background-color: #FFF;
+}
+@media (max-width:320px){
+    .aboutheader{
+        width: 18rem;
+        font-size: 2.2rem;
+    }
+    .aboutPic img{
+        width: 140px ;
+        height: 130px;
+    }
+}
+@media (max-width:400px){
+    .aboutheader{
+        width: 18rem;
+        font-size: 2.2rem;
+    }
+    .aboutPic img{
+        width: 160px ;
+        height: 150px;
+    }
+}
+@media (min-width:400px) and  (max-width: 900px){
+    #about{
+        margin-top: 0px !important;
+    }
+    .aboutheader{
+        width: 24rem;
+        font-size: 2.2rem;
+    }
+    .aboutPic img{
+        width: 175px ;
+        height: 170px;
+    }
+ }
+ 
